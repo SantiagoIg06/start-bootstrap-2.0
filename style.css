@@ -2,6 +2,9 @@
     padding: 0px;
     margin: 0px;
 }
+body {
+    overflow-x: hidden;
+}
 .bg-light{
     background-color:#2c3e50 !important;
     display: flex;

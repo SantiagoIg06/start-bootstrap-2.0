@@ -15,9 +15,9 @@
 .row {
     --bs-gutter-x: 0rem !important;
 }
-.col-md-6 {
+/* .col-md-6 {
     width: 100% !important;
-}
+} */
 .navbar-brand {
     font-size: 40px !important;
 }

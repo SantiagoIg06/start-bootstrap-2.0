@@ -80,7 +80,7 @@ a {
     height: 600px;
     background-color: #1ABC9C;
 }
-p {
+.parrafo, .parrafo-f {
     padding: 20px;
     font-size: 25px;
     font-family: 'Playfair Display', serif;
@@ -231,7 +231,7 @@ footer {
     display: block;
     color: violet !important;
 }
-h4 {
+.hhhh {
     font-family: 'Black Ops One', cursive;
 }
 .copyright {
@@ -243,4 +243,78 @@ h4 {
     justify-content: center;
     background-color: #1e2a36;
     color: white;
+}
+@media (max-widht: 1400px){.c-about {
+    padding: 50px;
+    width: 100% !important;
+    height: 700px;
+    background-color: #1ABC9C;
+}
+}
+@media (max-width: 1400px){.parrafo {
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+}
+@media (max-widht: 1200px){.c-about {
+    padding: 50px;
+    width: 100% !important;
+    height: 800px;
+    background-color: #1ABC9C;
+}
+}
+@media (max-width: 1200px){.parrafo {
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+}
+@media (max-width: 1570px) {.parrafo-f {
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+}
+@media (max-width: 1570px) {.img-redes {
+    width: 40px;
+    height: 40px;
+}
+}
+@media (max-widht: 1570px) {.hhhh {
+    font-size: 25px;
+    font-family: 'Black Ops One', cursive;
+}
+}
+@media (max-width: 1200px) {.parrafo-f {
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+}
+@media (max-width: 1200px) {.img-redes {
+    width: 35px;
+    height: 35px;
+}
+}
+@media (max-widht: 1200px) {.hhhh {
+    font-size: 20px;
+    font-family: 'Black Ops One', cursive;
+}
+}
+@media (max-width: 950px) {.parrafo-f {
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+}
+@media (max-width: 950px) {.img-redes {
+    width: 25px;
+    height: 25px;
+}
+}
+@media (max-widht: 950px) {.hhhh {
+    font-size: 15px;
+    font-family: 'Black Ops One', cursive;
+}
 }
